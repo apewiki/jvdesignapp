@@ -282,6 +282,12 @@ label[for='toggle-all'] {
 	text-decoration: line-through;
 }
 
+#todo-list li.completed span {
+	color: black;
+	text-decoration: inherit;
+	display: inline;
+}
+
 #todo-list li.priority:not(.completed) label {
 	color: #d66;
 }
